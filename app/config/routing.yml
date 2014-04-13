@@ -1,4 +1,5 @@
 site:
-    path: /site
-    defaults:   {_controller: SiteBundle:Default:index}
+    resource: "@SiteBundle/Resources/config/routing.yml"
+    prefix:   /
+    
 

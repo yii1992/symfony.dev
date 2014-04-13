@@ -2,6 +2,12 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/C:/make%20a%20website/symfony.dev/src/Acme/SiteBundle/Resources/views/Default/index.html.twig</file>
+            <file>file:/C:/make%20a%20website/symfony.dev/src/Acme/SiteBundle/Entity/Block.php</file>
+            <file>file:/C:/make%20a%20website/symfony.dev/src/Acme/SiteBundle/Controller/DefaultController.php</file>
+            <file>file:/C:/make%20a%20website/symfony.dev/src/Acme/SiteBundle/Entity/BlockPage.php</file>
+            <file>file:/C:/make%20a%20website/symfony.dev/src/Acme/SiteBundle/Entity/BlockRepository.php</file>
+        </group>
     </open-files>
 </project-private>
