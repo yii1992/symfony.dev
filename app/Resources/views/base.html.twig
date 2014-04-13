@@ -4,9 +4,9 @@
         <meta charset="UTF-8" />
         <title>{% block title %}Welcome!{% endblock %}</title>
         {% block stylesheets %}
-        <link href="{{ asset('bundles/acmedemo/css/bootstrap-theme.css') }}" rel="stylesheet" type="text/css" />
-        <link href="{{ asset('bundles/acmedemo/css/bootstrap.css') }}" rel="stylesheet" type="text/css" />
-        <link href="{{ asset('bundles/acmedemo/css/moveme.css') }}" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('bundles/site/css/bootstrap-theme.css') }}" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('bundles/site/css/bootstrap.css') }}" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('bundles/site/css/moveme.css') }}" rel="stylesheet" type="text/css" />
         {% endblock %}
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
     </head>
@@ -44,7 +44,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6">
-                        <img class="img-responsive" src="{{ asset('bundles/acmedemo/images/app.png') }}">
+                        <img class="img-responsive" src="{{ asset('bundles/site/images/app.png') }}">
                     </div>
                     <div class="col-sm-6">
                         <h3 class="tpad">ALWAYS ON HAND</h3><hr>
@@ -67,10 +67,10 @@
                             <li><a href="#win" data-toggle="tab">Windows</a></li>
                         </ul>
                         <div class="tab-content">
-                            <div class="tab-pane fade in active" id="android"><p><img src="{{ asset('bundles/acmedemo/images/gplay.jpg') }}" alt="google" class="pull-right">Android... Donec eget sem lacus. Morbi vitae viverra metus. Duis gravida sapien in hendrerit ultricies. Maecenas in vestibulum lectus. Pellentesque eleifend feugiat tincidunt. <br><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span></p></div>
-                            <div class="tab-pane fade in" id="bb"><p><img src="{{ asset('bundles/acmedemo/images/bbstore.jpg') }}" alt="google" class="pull-right">Blackberry... Donec eget sem lacus. Morbi vitae viverra metus. Duis gravida sapien in hendrerit ultricies. Maecenas in vestibulum lectus. Pellentesque eleifend feugiat tincidunt.<br><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span></p></div>
-                            <div class="tab-pane fade in" id="ios"><p><img src="{{ asset('bundles/acmedemo/images/appstore.jpg') }}" alt="google" class="pull-right">iOS... Donec eget sem lacus. Morbi vitae viverra metus. Duis gravida sapien in hendrerit ultricies. Maecenas in vestibulum lectus. Pellentesque eleifend feugiat tincidunt.<br><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span></p></div>
-                            <div class="tab-pane fade in" id="win"><p><img src="{{ asset('bundles/acmedemo/images/winstore.jpg') }}" alt="google" class="pull-right">Windows... Donec eget sem lacus. Morbi vitae viverra metus. Duis gravida sapien in hendrerit ultricies. Maecenas in vestibulum lectus. Pellentesque eleifend feugiat tincidunt.<br><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span></p></div>
+                            <div class="tab-pane fade in active" id="android"><p><img src="{{ asset('bundles/site/images/gplay.jpg') }}" alt="google" class="pull-right">Android... Donec eget sem lacus. Morbi vitae viverra metus. Duis gravida sapien in hendrerit ultricies. Maecenas in vestibulum lectus. Pellentesque eleifend feugiat tincidunt. <br><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span></p></div>
+                            <div class="tab-pane fade in" id="bb"><p><img src="{{ asset('bundles/site/images/bbstore.jpg') }}" alt="google" class="pull-right">Blackberry... Donec eget sem lacus. Morbi vitae viverra metus. Duis gravida sapien in hendrerit ultricies. Maecenas in vestibulum lectus. Pellentesque eleifend feugiat tincidunt.<br><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span></p></div>
+                            <div class="tab-pane fade in" id="ios"><p><img src="{{ asset('bundles/site/images/appstore.jpg') }}" alt="google" class="pull-right">iOS... Donec eget sem lacus. Morbi vitae viverra metus. Duis gravida sapien in hendrerit ultricies. Maecenas in vestibulum lectus. Pellentesque eleifend feugiat tincidunt.<br><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span></p></div>
+                            <div class="tab-pane fade in" id="win"><p><img src="{{ asset('bundles/site/images/winstore.jpg') }}" alt="google" class="pull-right">Windows... Donec eget sem lacus. Morbi vitae viverra metus. Duis gravida sapien in hendrerit ultricies. Maecenas in vestibulum lectus. Pellentesque eleifend feugiat tincidunt.<br><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span></p></div>
                         </div>
                     </div>
                     <div class="col-sm-4 col-sm-offset-2">
@@ -98,7 +98,7 @@
                             </address>
                         </div>
                         <div class="pull-right ft_space">
-                            <img class="img-responsive" src="{{asset('bundles/acmedemo/images/moveMe.png') }}">
+                            <img class="img-responsive" src="{{asset('bundles/site/images/moveMe.png') }}">
                             <p>&copy; MoveMe Inc. 2013</p>
                         </div>
                     </footer>
@@ -106,8 +106,8 @@
             </div>    
         </div>    
         {% block javascripts %}
-        <script src="{{asset('bundles/acmedemo/js/jquery.js') }}"></script>
-        <script src="{{asset('bundles/acmedemo/js/bootstrap.min.js') }}"></script>
+        <script src="{{asset('bundles/site/js/jquery.js') }}"></script>
+        <script src="{{asset('bundles/site/js/bootstrap.min.js') }}"></script>
         {% endblock %}
     </body>
 </html>
